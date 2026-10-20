@@ -1,0 +1,14 @@
+{
+  "name": "acumatica",
+  "version": "1.0.0",
+  "description": "Claude Code plugin for Acumatica ERP — read, write, update, and report on Finance, Inventory, and CRM data using natural language.",
+  "mcp_servers": [
+    {
+      "name": "acumatica",
+      "command": "node",
+      "args": ["mcp-server/dist/index.js"],
+      "description": "Acumatica ERP MCP server"
+    }
+  ],
+  "skills": "skills/"
+}
